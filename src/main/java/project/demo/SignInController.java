@@ -63,11 +63,11 @@ public class SignInController {
         return "admin@gmail.com".equals(email) && "123".equals(password);
     }
 
-    // Load the HomePage.fxml after successful sign-in
+    // Load the MainpageStructure.fxml after successful sign-in
     private void loadHomePage() {
         try {
             // Ensure the path is correct (adjust the path as per your project structure)
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/project/demo/FXML/HomePage.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/project/demo/FXML/MainpageStructure.fxml"));
             AnchorPane homePageRoot = loader.load(); // Load the HomePage FXML
 
             // Create a new scene for the HomePage
@@ -79,7 +79,7 @@ public class SignInController {
             stage.show(); // Show the new scene
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("Error loading HomePage.fxml.");
+            System.out.println("Error loading MainpageStructure.fxml.");
         }
     }
 

@@ -1,16 +1,18 @@
 package project.demo;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
+import javafx.fxml.FXML;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.layout.HBox;
 
-public class HomePageController extends Application {
+public class HomePageController {
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+    @FXML
+    private HBox header;
 
-    @Override
-    public void start(Stage primaryStage) {
+    @FXML
+    private ScrollPane scrollPane;
 
+    @FXML
+    public void initialize() {
     }
 }
