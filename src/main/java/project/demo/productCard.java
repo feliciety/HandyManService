@@ -1,12 +1,9 @@
 package project.demo;
 
-import javafx.fxml.FXMLLoader;
+import javafx.scene.layout.VBox;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.VBox;
 import javafx.scene.control.Label;
-
-import java.io.IOException;
 
 public class productCard {
 
@@ -33,21 +30,23 @@ public class productCard {
         return price;
     }
 
-    // Creates a VBox (product card) dynamically using ProductCard.fxml
+    // Creates a VBox (product card) dynamically without a separate controller
     public VBox createProductCard() {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("productCard.fxml"));
-            VBox productCard = loader.load();
+        // Create VBox for product card layout
+        VBox productCard = new VBox(10); // 10px spacing
 
-            // Lookup and set values
-            ((ImageView) productCard.lookup("#productImage")).setImage(new Image(imagePath));
-            ((Label) productCard.lookup("#productName")).setText(name);
-            ((Label) productCard.lookup("#productPrice")).setText(price);
+        // Create ImageView for product image
+        ImageView productImage = new ImageView(new Image(imagePath));
+        productImage.setFitHeight(100);  // You can set the size based on your design
+        productImage.setFitWidth(100);
 
-            return productCard;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
-        }
+        // Create Labels for product name and price
+        Label productName = new Label(name);
+        Label productPrice = new Label(price);
+
+        // Add Image and Labels to VBox
+        productCard.getChildren().addAll(productImage, productName, productPrice);
+
+        return productCard;
     }
 }
