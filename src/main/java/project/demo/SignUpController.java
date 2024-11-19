@@ -23,7 +23,7 @@ public  class SignUpController {
     private TextField passwordField;
 
     @FXML
-    private Button signInButton;
+    private Button signUpButton;
 
     @FXML
     private Button signInOption; // Button to navigate to the Sign Up page
@@ -50,7 +50,7 @@ public  class SignUpController {
             // All inputs are valid
             System.out.println("Sign Up successful with username: " + username + ", email: " + email);
 
-            // Load the HomePage.fxml
+            // Load the MainpageStructure.fxml
             loadHomePage();
         }
     }
@@ -63,15 +63,15 @@ public  class SignUpController {
         return "admin@gmail.com".equals(email) && "123".equals(password);
     }
 
-    // Load the HomePage.fxml after successful sign-in
+    // Load the MainpageStructure.fxml after successful sign-in
     private void loadHomePage() {
         try {
-            // Load HomePage.fxml
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/project/demo/FXML/HomePage.fxml"));
+            // Load MainpageStructure.fxml
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/project/demo/FXML/MainpageStructure.fxml"));
             AnchorPane homePageRoot = loader.load();
 
             // Get the current stage
-            Stage stage = (Stage) signInButton.getScene().getWindow();
+            Stage stage = (Stage) signUpButton.getScene().getWindow();
 
             // Create a new scene and set it to the stage
             Scene homePageScene = new Scene(homePageRoot);

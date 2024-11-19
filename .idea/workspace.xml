@@ -5,31 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8841938b-9f9f-4384-a6b9-a9167bbb4ca0" name="Changes" comment="SignupPage ongoing">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/HomePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignInController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/CSS/Words.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/HomePage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/SignIn.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/SignUp.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/emailIconB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/emailIconG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/lockIconB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/lockIconG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/userIconB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/userIconG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/BookServicesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/BookServicesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/CartPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ServicesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ServicesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ShopPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/aboutUsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/aboutUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/productCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/productCardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/AboutUs.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/Cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/MainpageStructure.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/Services.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/Shop.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/bookServices.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/productCard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/pinterest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignupPageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/SignupPageFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/CSS/Words.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/CSS/Words.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +55,8 @@
       <list>
         <option value="CSS File" />
         <option value="package-info" />
-        <option value="JavaFXApplication" />
         <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -69,6 +83,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.HomePage.executor&quot;: &quot;Run&quot;,
     &quot;Application.SignInPage.executor&quot;: &quot;Run&quot;,
     &quot;Application.SignUpPage.executor&quot;: &quot;Run&quot;,
     &quot;Application.SigninPage.executor&quot;: &quot;Run&quot;,
@@ -93,12 +108,25 @@
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\java\project\demo" />
-      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\java\project\demo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SignInPage">
+    <configuration name="HomePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.demo.HomePage" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SignInPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.demo.SignInPage" />
       <module name="demo" />
@@ -152,6 +180,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SignInPage" />
+        <item itemvalue="Application.HomePage" />
         <item itemvalue="Application.SigninPage" />
         <item itemvalue="Application.SignUpPage" />
       </list>
@@ -183,7 +212,9 @@
       <workItem from="1731947269595" duration="12000" />
       <workItem from="1731947381381" duration="2371000" />
       <workItem from="1731964452734" duration="2145000" />
-      <workItem from="1731966982975" duration="619000" />
+      <workItem from="1731966982975" duration="5623000" />
+      <workItem from="1731987748718" duration="4810000" />
+      <workItem from="1732006303139" duration="2323000" />
     </task>
     <task id="LOCAL-00001" summary="SignupPage ongoing">
       <option name="closed" value="true" />
@@ -201,7 +232,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731929700150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SignupPage ongoing">
+      <option name="closed" value="true" />
+      <created>1731981539953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731981539953</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SignupPage ongoing">
+      <option name="closed" value="true" />
+      <created>1731981557586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731981557586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
