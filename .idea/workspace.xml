@@ -5,45 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8841938b-9f9f-4384-a6b9-a9167bbb4ca0" name="Changes" comment="SignupPage ongoing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/BookServicesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/BookServicesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/CartPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ServicesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ServicesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ShopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/ShopPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/aboutUsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/aboutUsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/productCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/productCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/AboutUs.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/Cart.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/MainpageStructure.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/Services.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/Shop.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/bookServices.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/productCard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/pinterest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/HomePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/CSS/Words.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/CSS/Words.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/HomePage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -92,34 +57,43 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/HandyManService/src/main/resources/project/demo/FXML&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\java\project\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SignInPage">
+  <component name="RunManager" selected="Application.HomePage">
     <configuration name="HomePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.demo.HomePage" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project.demo.*" />
+          <option name="PATTERN" value="project.demo.productCardGrid" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +106,7 @@
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project.demo.*" />
+          <option name="PATTERN" value="project.demo.productCardGrid" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SignInPage" />
         <item itemvalue="Application.HomePage" />
+        <item itemvalue="Application.SignInPage" />
         <item itemvalue="Application.SigninPage" />
         <item itemvalue="Application.SignUpPage" />
       </list>
@@ -214,7 +188,14 @@
       <workItem from="1731964452734" duration="2145000" />
       <workItem from="1731966982975" duration="5623000" />
       <workItem from="1731987748718" duration="4810000" />
-      <workItem from="1732006303139" duration="2323000" />
+      <workItem from="1732006303139" duration="10111000" />
+      <workItem from="1732016764448" duration="437000" />
+      <workItem from="1732017322037" duration="7297000" />
+      <workItem from="1732026242545" duration="52000" />
+      <workItem from="1732027643644" duration="7000" />
+      <workItem from="1732028020705" duration="48000" />
+      <workItem from="1732030441422" duration="95000" />
+      <workItem from="1732030537673" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="SignupPage ongoing">
       <option name="closed" value="true" />
@@ -248,7 +229,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731981557586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SignupPage ongoing">
+      <option name="closed" value="true" />
+      <created>1732008707048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732008707048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SignupPage ongoing">
+      <option name="closed" value="true" />
+      <created>1732010047207</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732010047207</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
