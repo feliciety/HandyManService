@@ -1,16 +1,23 @@
 package project.demo;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
+import javafx.fxml.FXML;
+import javafx.scene.image.ImageView;
+import javafx.scene.control.Label;
 
-public class productCardController extends Application {
+public class productCardController {
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+    @FXML
+    private ImageView productImage;
 
-    @Override
-    public void start(Stage primaryStage) {
+    @FXML
+    private Label productName;
 
+    @FXML
+    private Label productPrice;
+
+    public void setProductDetails(String name, String imagePath, String price) {
+        productName.setText(name);
+        productImage.setImage(new javafx.scene.image.Image(imagePath));
+        productPrice.setText(price);
     }
 }
