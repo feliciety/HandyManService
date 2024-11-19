@@ -4,17 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8841938b-9f9f-4384-a6b9-a9167bbb4ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="8841938b-9f9f-4384-a6b9-a9167bbb4ca0" name="Changes" comment="SignupPage ongoing">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignInController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/CSS/Words.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/HomePage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/SignIn.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/FXML/SignUp.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/emailIconB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/emailIconG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/lockIconB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/lockIconG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/userIconB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/demo/Images/userIconG.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignupPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/demo/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignupPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/demo/SignupPageFXML.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="package-info" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,18 +67,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SignInPage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SignUpPage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SigninPage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/HandyManService/src/main/resources/project/demo/FXML&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\java\project\demo" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SignInPage">
+    <configuration name="SignInPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.demo.SignInPage" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.demo.SignUpPage" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.demo.SignInController" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SigninPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.demo.SigninPage" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.demo.SignInController" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SignInPage" />
+        <item itemvalue="Application.SigninPage" />
+        <item itemvalue="Application.SignUpPage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -77,11 +173,42 @@
       <option name="presentableId" value="Default" />
       <updated>1731929242802</updated>
       <workItem from="1731929243904" duration="5000" />
-      <workItem from="1731929367061" duration="178000" />
+      <workItem from="1731929367061" duration="1654000" />
+      <workItem from="1731931087066" duration="1935000" />
+      <workItem from="1731933905147" duration="8179000" />
+      <workItem from="1731943899091" duration="11000" />
+      <workItem from="1731943920732" duration="24000" />
+      <workItem from="1731943981830" duration="3111000" />
+      <workItem from="1731947142126" duration="32000" />
+      <workItem from="1731947269595" duration="12000" />
+      <workItem from="1731947381381" duration="2371000" />
+      <workItem from="1731964452734" duration="2145000" />
+      <workItem from="1731966982975" duration="619000" />
     </task>
+    <task id="LOCAL-00001" summary="SignupPage ongoing">
+      <option name="closed" value="true" />
+      <created>1731929657611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929657611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="SignupPage ongoing">
+      <option name="closed" value="true" />
+      <created>1731929700150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929700150</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SignupPage ongoing" />
+    <option name="LAST_COMMIT_MESSAGE" value="SignupPage ongoing" />
   </component>
 </project>
