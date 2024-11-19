@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8841938b-9f9f-4384-a6b9-a9167bbb4ca0" name="Changes" comment="SignupPage ongoing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/demo/SignUpPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="8841938b-9f9f-4384-a6b9-a9167bbb4ca0" name="Changes" comment="SignupPage ongoing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +80,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\Images" />
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo\FXML" />
+      <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\resources\project\demo" />
       <recent name="C:\Users\Admin\Desktop\HandyManService\src\main\java\project\demo" />
     </key>
   </component>
@@ -195,7 +192,10 @@
       <workItem from="1732027643644" duration="7000" />
       <workItem from="1732028020705" duration="48000" />
       <workItem from="1732030441422" duration="95000" />
-      <workItem from="1732030537673" duration="320000" />
+      <workItem from="1732030537673" duration="3582000" />
+      <workItem from="1732034177419" duration="9000" />
+      <workItem from="1732034250739" duration="43000" />
+      <workItem from="1732034331604" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="SignupPage ongoing">
       <option name="closed" value="true" />
@@ -245,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732010047207</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SignupPage ongoing">
+      <option name="closed" value="true" />
+      <created>1732030884479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732030884479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
